@@ -1,0 +1,13 @@
+{
+  "name": "tianqi-skills",
+  "description": "A personal collection of agent skills for coding workflows.",
+  "version": "1.0.0",
+  "author": {
+    "name": "TianqiZhang"
+  },
+  "homepage": "https://github.com/TianqiZhang/agent-skills",
+  "repository": "https://github.com/TianqiZhang/agent-skills",
+  "license": "MIT",
+  "keywords": ["coding-agent", "plugin", "skills"],
+  "skills": ["skills/"]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "tianqi-marketplace",
+  "owner": {
+    "name": "TianqiZhang"
+  },
+  "metadata": {
+    "description": "Tianqi's Skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tianqi-skills",
+      "description": "A personal collection of agent skills for coding workflows.",
+      "version": "1.0.0",
+      "source": "./plugins/tianqi-skills"
+    }
+  ]
+}

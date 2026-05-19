@@ -47,13 +47,14 @@ Then install `tianqi-skills` from the Codex plugin directory for the registered 
 Some external skills are not copied into this repository because their license terms do not permit redistribution. Install them directly from their source repository in a new environment:
 
 ```bash
-set -euo pipefail
-
-ANTHROPIC_SKILLS_REPO="https://github.com/anthropics/skills"
-
-for skill in docx pdf pptx xlsx; do
-  npx skills add "$ANTHROPIC_SKILLS_REPO" --skill "$skill"
-done
+# docx: create, read, edit, and analyze Word .docx documents.
+npx skills add https://github.com/anthropics/skills --skill docx
+# pdf: read, create, edit, merge, split, OCR, and process PDF files.
+npx skills add https://github.com/anthropics/skills --skill pdf
+# pptx: create, read, edit, and analyze PowerPoint .pptx presentations.
+npx skills add https://github.com/anthropics/skills --skill pptx
+# xlsx: create, read, edit, analyze, and convert spreadsheet files.
+npx skills add https://github.com/anthropics/skills --skill xlsx
 ```
 
 ## License

@@ -7,6 +7,7 @@ A personal collection of agent skills for coding workflows. This repo serves as 
 | Plugin | Skill | Description |
 |--------|-------|-------------|
 | tianqi-skills | plugin-scaffolder | Scaffold a multi-agent plugin repo with marketplace files, manifests, and skills for Claude Code, Copilot CLI, and Codex |
+| tianqi-skills | test-health-audit | Review test suites to identify low-value tests that lock down implementation details instead of real specifications |
 
 ## Installation
 

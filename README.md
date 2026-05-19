@@ -42,6 +42,20 @@ codex plugin marketplace add TianqiZhang/agent-skills
 
 Then install `tianqi-skills` from the Codex plugin directory for the registered marketplace.
 
+### Non-vendored external skills
+
+Some external skills are not copied into this repository because their license terms do not permit redistribution. Install them directly from their source repository in a new environment:
+
+```bash
+set -euo pipefail
+
+ANTHROPIC_SKILLS_REPO="https://github.com/anthropics/skills"
+
+for skill in docx pdf pptx xlsx; do
+  npx skills add "$ANTHROPIC_SKILLS_REPO" --skill "$skill"
+done
+```
+
 ## License
 
 MIT for this repository's original content. Imported skills retain the terms in their included `LICENSE.txt` files.

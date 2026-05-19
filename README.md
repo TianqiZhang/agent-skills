@@ -55,6 +55,8 @@ npx skills add https://github.com/anthropics/skills --skill pdf
 npx skills add https://github.com/anthropics/skills --skill pptx
 # xlsx: create, read, edit, analyze, and convert spreadsheet files.
 npx skills add https://github.com/anthropics/skills --skill xlsx
+# guizang-ppt-skill: generate polished single-file HTML slide decks, images, and social covers.
+npx skills add https://github.com/op7418/guizang-ppt-skill --skill guizang-ppt-skill
 ```
 
 ## License

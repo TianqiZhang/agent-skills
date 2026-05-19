@@ -4,10 +4,11 @@ A personal collection of agent skills for coding workflows. This repo serves as 
 
 ## Available Skills
 
-| Plugin | Skill | Description |
-|--------|-------|-------------|
-| tianqi-skills | plugin-scaffolder | Scaffold a multi-agent plugin repo with marketplace files, manifests, and skills for Claude Code, Copilot CLI, and Codex |
-| tianqi-skills | test-health-audit | Review test suites to identify low-value tests that lock down implementation details instead of real specifications |
+| Plugin | Skill | Description | Source | Sync |
+|--------|-------|-------------|--------|------|
+| tianqi-skills | plugin-scaffolder | Scaffold a multi-agent plugin repo with marketplace files, manifests, and skills for Claude Code, Copilot CLI, and Codex | Original | Manual |
+| tianqi-skills | skill-creator | Create, edit, evaluate, and optimize agent skills | `https://github.com/anthropics/skills`, path `skills/skill-creator`, ref `origin/main`, last synced `6a5bb06904ab164a345e41c381fc9097954b83da` | Fetch source, copy `skills/skill-creator` to `plugins\tianqi-skills\skills\skill-creator`, preserve `LICENSE.txt`, then update this row's commit |
+| tianqi-skills | test-health-audit | Review test suites to identify low-value tests that lock down implementation details instead of real specifications | Original | Manual |
 
 ## Installation
 
@@ -43,4 +44,4 @@ Then install `tianqi-skills` from the Codex plugin directory for the registered 
 
 ## License
 
-MIT
+MIT for this repository's original content. Imported skills retain the terms in their included `LICENSE.txt` files.
